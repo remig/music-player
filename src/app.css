@@ -1,0 +1,124 @@
+@import '~antd/dist/antd.css';
+
+body {
+    letter-spacing: .05rem;
+}
+
+.ant-layout {
+    background:rgba(253, 230, 251, 0.5);
+}
+
+.ant-layout-header {
+    background: unset;
+}
+
+.music-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-picker-title {
+    padding: 0;
+    padding-bottom: 1rem;
+}
+.music-picker-title .ant-page-header-heading-title, .ant-page-header-heading-title {
+    color: rgb(27, 2, 34);
+    font-size: 1.68rem;
+}
+
+.icon-button {
+    width: 50px;
+}
+
+.button-list {
+    margin-bottom: 1rem;
+}
+
+.button-list:last-child {
+    margin-bottom: 0;
+}
+
+.ant-btn {
+    font-weight: 600;
+}
+
+.ant-btn-primary {
+    background: rgb(80, 23, 97);
+    border-color: rgb(80, 23, 97);
+}
+
+.ant-btn:hover, .ant-btn:hover, .ant-btn:active, .ant-btn:focus {
+    color: #fff;
+    background: rgb(182, 41, 170);
+    border-color: rgb(182, 41, 170);
+}
+
+.ant-btn-group .ant-btn-primary:first-child:not(:last-child) {
+    border-right-color:rgba(80, 23, 97, 0.456);
+}
+
+.music-picker .ant-btn-primary {
+    text-align: left;
+}
+
+.music-picker .ant-btn-primary span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 140px;
+}
+
+.playlist {
+    margin: 0 1.5rem;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 5px solid rgb(209, 170, 205);
+    list-style: none;
+    padding-left: 0;
+}
+
+.playlist-delete-button {
+    width: unset;
+}
+
+.playlist li {
+    padding: .25rem 0;
+    border-bottom:rgb(209, 170, 205) solid 1px;
+}
+
+.playlist li:hover {
+    background-color: rgba(84, 199, 245);
+}
+
+.playlist-selected-track {
+    background-color: rgba(84, 199, 245, 0.57);
+    width: 100%;
+    padding: .15rem;
+    margin: 0;
+}
+
+.playlist-delete-button {
+    margin: 0 .35rem;
+}
+
+.ant-layout-footer {
+    background-color:rgb(209, 170, 205);
+}
+
+.rhap_header {
+    font-weight: 600;
+    font-size:1.14rem;
+}
+.rhap_container {
+    background-color:rgba(80, 23, 97, 0.456);
+}
+.rhap_progress-bar,.rhap_volume-bar {
+    background-color:rgb(209, 170, 205);
+}
+.rhap_progress-indicator,.rhap_progress-filled,.rhap_volume-indicator,.rhap_volume-filled   {
+    background-color:rgb(80, 23, 97);
+}
+.rhap_main-controls-button,.rhap_volume-button {
+    color:rgb(80, 23, 97);
+}

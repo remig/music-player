@@ -1,0 +1,8 @@
+node_modules
+.vscode/
+tmp/
+coverage/
+dist/
+build/
+
+music
